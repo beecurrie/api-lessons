@@ -1,9 +1,10 @@
 console.log('script');
 
 var myKey=JSON.parse(myKey);
+var key = myKey[0].key;
 
 $.ajax({
-  url : 'https://api.unsplash.com/topics/animals/photos?page=1&client_id='+myKey[0].key,
+  url : 'https://api.unsplash.com/topics/animals/photos?page=1&client_id='+key,
   type: 'GET',
   data: 'json',
   success: function(data){
