@@ -1,7 +1,5 @@
 console.log('script');
 
-// AnJnZP4qP6ZnldZhrInjTRTgO7KKfS4N1T9ctsD8k3c
-
 var myKey=JSON.parse(myKey);
 console.log(myKey[0].key);
 
